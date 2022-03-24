@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    outline: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.todo_app_cover{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    background-color: rgb(64, 37, 182);
+    padding: 10px;
+    max-width: 370px;
+    width: 95%;
+    min-height: 500px;
+}
+.todo_app_cover h1{
+    text-align: center;
+    color: white;
+}
+.search_input_feild_cover , .search_input_feild_cover form .responsive_fields{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 10px;
+}
+.search_input_feild_cover form .responsive_fields input{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 22px;
+    border-bottom: 1px solid white;
+    flex: 1;
+}
+.list_cover{
+    list-style-type: none;
+}
+.list_cover li:first-child{
+    margin-top: 30px;
+}
+.list_cover li{
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.list_cover li.todo h3{
+    flex: 1;
+    text-transform: capitalize;
+}
+.list_cover li.todo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
